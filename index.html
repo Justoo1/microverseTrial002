@@ -17,51 +17,39 @@
         <p id="description">Thank you for taking the time to help us improve the platform</p>
       </div>
     </section>
-    <div class="survey-box">
 
-      <section class="yes">
-        <div>
-          <form action="" method="post" id="survey-form">
-            <div class="form-group">
-              <label for="name" id="name-label">Name</label>
-              <input type="text" name="name" id="name" required placeholder="enter your name">
-            </div>
+    <section class="yes">
+      <div class="survey-box">
+        <form action="" method="post" id="survey-form">
+          <div class="form-group">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" name="name" id="name" required placeholder="enter your name">
             <div class="form-group">
               <label for="email" id="email-label">Email</label>
-              <input type="email" name="email" id="email" required placeholder="enter your email">
+              <input type="email" name="email" id="email" placeholder="enter your email">
             </div>
             <div class="form-group">
               <label for="number" id="number-label">Age (optional)</label>
               <input type="number" name="" id="number" placeholder="Age" min="13" max="45">
             </div>
             <div class="form-group">
-              <h3>Which option best describes your current role?</h3>
-              <select name="name" id="dropdown">
-                <option value="0">Select Current role</option>
-                <option value="Student">Student</option>
-                <option value="Full time">Full Time Job</option>
-                <option value="Full learner">Full Time Learner</option>
-                <option value="Not Say">Prefer Not Say</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-            <div class="form-group">
               <h3>Would you recommend freeCodeCamp to a friend?</h3>
               <div>
-                <input type="radio" name="name" id="" value="0">
+                <input type="radio" name="name" id="">
                 <label for="">Definitely</label>
               </div>
               <div>
-                <input type="radio" name="name" id="" value="1">
+                <input type="radio" name="name" id="">
                 <label for="">
                   Maybe
                 </label>
               </div>
               <div>
-                <input type="radio" name="name" id="" value="2">
+                <input type="radio" name="name" id="">
                 <label for="">Not Sure</label>
               </div>
             </div>
+
             <div class="form-group">
               <h3>What is your favorite feature of freeCodeCamp?</h3>
               <select name="name" id="">
@@ -74,21 +62,33 @@
             </div>
 
             <div class="form-group">
+              <h3>Which option best describes your current role?</h3>
+              <select name="name" id="">
+                <option value="0">Select Current role</option>
+                <option value="Student">Student</option>
+                <option value="Full time">Full Time Job</option>
+                <option value="Full learner">Full Time Learner</option>
+                <option value="Not Say">Prefer Not Say</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
               <h3>What would you like to see improved? (Check all that apply)</h3>
               <div>
-                <input type="checkbox" name="" id="" value="0">
+                <input type="checkbox" name="" id="">
                 <label for="">Front-end Projects</label>
+
               </div>
               <div>
-                <input type="checkbox" name="" id="" value="1">
+                <input type="checkbox" name="" id="">
                 <label for="">Back-end Projects</label>
               </div>
               <div>
-                <input type="checkbox" name="" id="" value="2">
+                <input type="checkbox" name="" id="">
                 <label for="">Data Visualization</label>
               </div>
               <div>
-                <input type="checkbox" name="" id="" value="3">
+                <input type="checkbox" name="" id="">
                 <label for="">Challenges</label>
               </div>
             </div>
@@ -98,10 +98,9 @@
               <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
             </div>
             <input type="submit" value="Submit" id="submit">
-          </form>
-        </div>
-      </section>
-    </div>
+        </form>
+      </div>
+    </section>
   </main>
 </body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
