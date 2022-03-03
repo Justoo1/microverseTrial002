@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#title {
+  font-size: 40px;
+  color: "#eee";
+}
+
+.survey-box {
+  background-color: darkblue;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  align-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 20px 40px;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  color: aliceblue;
+  font-size: 18;
+  font-weight: 800;
+}
+
+.form-group input {
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-group input:focus {
+  outline: blanchedalmond;
+}
+
+.form-group h3 {
+  color: aliceblue;
+  font-size: 18;
+  font-weight: 800;
+}
+
+.form-group h4 {
+  color: aliceblue;
+  font-size: 18;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#submit {
+  background-color: bisque;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
